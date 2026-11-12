@@ -1,0 +1,7 @@
+CREATE DATABASE institucion;
+USE institucion;
+CREATE TABLE aprendices (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(100) NOT NULL,
+correo VARCHAR(100) NOT NULL
+);
